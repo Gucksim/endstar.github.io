@@ -1,0 +1,49 @@
+body {
+    background: rgb(197,195,228);
+background: linear-gradient(90deg, rgba(197,195,228,1) 0%, rgba(174,174,255,1) 35%, rgba(178,137,255,1) 49%, rgba(0,212,255,1) 100%);
+font-family: mc;
+}
+
+.sendapplication {
+    width: 250px;
+    height: 63px;
+    border-radius: 16px;
+    font-family: mc;
+    font-size: larger;
+    position:relative; top:-20px; left:0px; margin-left:0px; margin-right:0px;
+    background-color: rgb(255, 132, 253);
+    transition: 500ms;
+}
+
+.sendapplication:hover {
+    border-radius: 32px;
+    cursor: pointer;
+    background-color: aqua;
+transition: 500ms;
+}
+
+
+
+
+@font-face {
+    font-family: mc;
+    src: url(pixelcraft.ttf);
+}
+
+button {
+    width: 250px;
+    height: 63px;
+    border-radius: 16px;
+    font-family: mc;
+    font-size: larger;
+    position:relative; top:-20px; left:0px; margin-left:0px; margin-right:0px;
+    background-color: rgb(255, 132, 253);
+    transition: 500ms;
+}
+
+button:hover {
+    border-radius: 32px;
+    cursor: pointer;
+    background-color: aqua;
+transition: 500ms;
+}
